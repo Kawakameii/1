@@ -7,8 +7,7 @@
     /* Basic Reset */
      h1, h2, h3, p, ul, li {
       margin: 0;
-      padding: 0;
-      color: #10136b; 
+      padding: 0; 
     }
 
     body {
@@ -21,18 +20,35 @@
     /* Header Styles */
     header {
       background-color: #7a99c2;
-      color: #10136b;
-      text-align: center;
-      position: relative;
       width: 100%;
       height: 45%;
     }
+    
+    nav {
+      background-color: #364c73;
+      font-family: "Arial", sans-serif;
+    }
+    
+    nav :hover {
+      background-color: #dce9fa;
+      color: #10136b;
+    }
 
     header h1 {
+      width: 100%;
+      background-color: #dce9fa;
       color: #10136b;
-      margin-top: 100px;
-      text-align: center; /* Align text to the left */
-      margin-left: 100px; /* Add left margin */
+      margin-top: 80px;
+      text-align: center; /* Align text to the center */
+      margin-left: 0px; /* Add left margin */
+    }
+    
+    h2 {
+      width: 100%;
+      background-color: #dce9fa;
+      color: #10136b;
+      text-align: center;
+      margin-left: 0px;
     }
 
     header p {
@@ -44,7 +60,7 @@
     header nav ul {
       list-style: none;
       margin-top: 0px;
-      font-size: 18px;
+      font-size: 1h1px;
     }
 
     header nav ul li {
@@ -54,18 +70,17 @@
 
     header nav ul li a {
       text-decoration: none;
-      color: #000; /* Text color set to black */
+      color: white; /* Text color set to black */
       font-weight: bold;
+      display: inline;
     }
     
 
     /* Main Content Styles */
     main {
       color: #10136b;
-      max-width: 1000px;
-      margin: 0;
-      padding: 20px;
-      overflow: hidden; /* Clear floated content */
+      width: 800px;
+      padding: 30px;
     }
 
     .image-container {
@@ -93,6 +108,7 @@
       border-radius: 50px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       height: 45%;
+      margin-right: 5px;
     }
 
     section h2 {
@@ -135,15 +151,16 @@
         <li><a href="#Bio">Bio</a></li>
         <li><a href="#Hobbies">Hobbies</a></li>
         <li><a href="#Music">Music</a></li>
+        <li><a href="#Contact Me">Contact</a></li>
       </ul>
     </nav>
     <div class="image-container">
-      <img src="Selfie.jpg" alt="Selfie">
+      <img src="selfie.jpg" alt="selfie.jpg">
     </div>
     <div>
       <h1>Hello Everyone!</h1>
-      <p>My name is Eileen</p>
-      <p>Welcome to my page</p>
+      <h2>My name is Eileen</h2>
+      <h2>I am a Waterloo Warrior</h2>
     </div>
   </header>
 
@@ -158,7 +175,7 @@
         I really hope to stay in Canada after I finish university.</p>
       </div>
       <div class="photo-container">
-      <img src="London.jpg" alt="London.jpg" style="width:95%;margin-top:30px;">
+     <img src="London.jpg" alt="London.jpg" style="width:95%;margin-top:10px;">
       </div>
     </section>
     
@@ -180,7 +197,15 @@
         <!-- image copied from:https://www.youtube.com/watch?app=desktop&v=CDQfxMl-3eo-->
 
       </div>
-      
+    </section>
+    
+    <section id="hobbies">
+      <div>
+      <img src="Aespa.png" alt="Aespa.png" style="width:30%;border-radius:10px;">
+      <img src="Aespa.png" alt="Aespa.png" style="width:30%;border-radius:10px;">
+      <img src="Aespa.png" alt="Aespa.png" style="width:30%;border-radius:10px;">
+      <p style="float:left;width:100%;">Sophie likes something</p>
+      </div>
     </section>
     
     <section id="Music">
@@ -188,7 +213,7 @@
       <p>I love listening to K-pop and alternative rock. My favorite band is Wolf Alice, a UK band. 
         I have no idea why they picked this name, but anyway, they are so talented. I hope they will come to
         Canada someday, maybe in Toronto or other cities close to me, and I will definitely go to their concert.</p>
-      <div class="photo-container" style="margin-top:40px;">
+      <div class="photo-container" style="margin-top:10px;">
         <!-- Placeholder for photos related to Music -->
         <img src="WolfAlice-5.jpg" alt="WolfAlice-5.jpg">
         <!-- image copied from:https://www.independent.co.uk/arts-entertainment/music/reviews/wolf-alice-review-blue-weekend-b1858233.html  -->
@@ -198,13 +223,12 @@
          <!-- image copied from:https://www.billboard.com/music/pop/newjeans-kpop-star-profile-1235310398/  -->
         <img src="Aespa.png" alt="Aespa.png">
          <!-- image copied from:https://www.rollingstone.com/music/music-features/aespa-savage-interview-1241875/  -->
-        
-
       </div>
     </section>
+    
   </main>
    <footer>
-  <p>My Email: p5gu@uwaterloo.ca</p>
+  <p>My Email: <a href="p5gu@uwaterloo.ca">p5gu@uwaterloo.ca</a></p>
 </footer>
 </body>
 </html>
