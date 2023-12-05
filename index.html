@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Basic Reset */
+     h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+      color: #10136b; 
+    }
+
+    body {
+      font-family: "Monaco", Monospace;
+      line-height: 1.6;
+      background-color: #dce9fa;
+      margin: 0;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #7a99c2;
+      color: #10136b;
+      text-align: center;
+      position: relative;
+      width: 100%;
+      height: 45%;
+    }
+
+    header h1 {
+      color: #10136b;
+      margin-top: 100px;
+      text-align: center; /* Align text to the left */
+      margin-left: 100px; /* Add left margin */
+    }
+
+    header p {
+      margin-bottom: 20px;
+      text-align: center; 
+      margin-left: 100px; /* Add left margin */
+    }
+
+    header nav ul {
+      list-style: none;
+      margin-top: 0px;
+      font-size: 18px;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin-right: 120px;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: #000; /* Text color set to black */
+      font-weight: bold;
+    }
+    
+
+    /* Main Content Styles */
+    main {
+      color: #10136b;
+      max-width: 1000px;
+      margin: 0;
+      padding: 20px;
+      overflow: hidden; /* Clear floated content */
+    }
+
+    .image-container {
+      float: right;
+      width: 250px;
+      height: 280px;
+      margin: 20 40 20px 20px;
+    }
+
+    .image-container img {
+      width: 95%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 110px;
+      border-style: solid;
+      border-width: 6px;
+      color: b8d1f2;
+    }
+
+    section {
+      margin-bottom: 50px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      height: 45%;
+    }
+
+    section h2 {
+      margin-bottom: 10px;
+      text-align: center;
+      color: #244075;
+    }
+
+    section p {
+      color: #244075;
+      width: 50%;
+      float: right;
+    }
+
+    footer {
+      background-color: #7a99c2;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .photo-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5px;
+      
+    }
+
+    .photo-container img {
+      width: 45%; /* Adjust width for responsiveness */
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Bio">Bio</a></li>
+        <li><a href="#Hobbies">Hobbies</a></li>
+        <li><a href="#Music">Music</a></li>
+      </ul>
+    </nav>
+    <div class="image-container">
+      <img src="Selfie.jpg" alt="Selfie">
+    </div>
+    <div>
+      <h1>Hello Everyone!</h1>
+      <p>My name is Eileen</p>
+      <p>Welcome to my page</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="Bio">
+      <div>
+      <h2>Bio</h2>
+      <p>I'm Eileen, and I've been in Canada since November 2021. I completed my 
+        senior year in London, Ontario. It's a beautiful city with wonderful people. 
+        When I'm out with my friends, I receive many compliments from strangers about my 
+        outfits and other things. It warms my heart and brings me so much joy. 
+        I really hope to stay in Canada after I finish university.</p>
+      </div>
+      <div class="photo-container">
+      <img src="London.jpg" alt="London.jpg" style="width:95%;margin-top:30px;">
+      </div>
+    </section>
+    
+    <section id="Hobbies">
+      <h2>Hobbies</h2>
+      <p>I've been into horror, thriller, and supernatural TV shows and movies since I was young, 
+        especially those centered around cults now. Some of my favorite films include "The Mist," "Midsommar," 
+        "Incantation," and "Hereditary," among others. I always find myself spending a lot of time searching 
+        for great shows and movies in these genres.</p>
+      <div class="photo-container" style="margin-top:40px;">
+        <!-- Placeholder for photos related to Hobbies -->
+        <img src="The Mist.png" alt="The Mist.png">
+        <!-- image copied from:https://movie-monster.fandom.com/wiki/Mist_Behemoth-->
+        <img src="Midsommar.png" alt="Midsommar.png">
+        <!-- image copied from:https://www.denofgeek.com/movies/midsommar-ending-florence-pugh-may-queen-interview/-->
+        <img src="hereditary.jpg" alt="hereditary.jpg">
+        <!-- image copied from:https://www.youtube.com/watch?app=desktop&v=CDQfxMl-3eo-->
+        <img src="Incantation.png" alt="Incantation.png">
+        <!-- image copied from:https://www.youtube.com/watch?app=desktop&v=CDQfxMl-3eo-->
+
+      </div>
+      
+    </section>
+    
+    <section id="Music">
+      <h2>Music</h2>
+      <p>I love listening to K-pop and alternative rock. My favorite band is Wolf Alice, a UK band. 
+        I have no idea why they picked this name, but anyway, they are so talented. I hope they will come to
+        Canada someday, maybe in Toronto or other cities close to me, and I will definitely go to their concert.</p>
+      <div class="photo-container" style="margin-top:40px;">
+        <!-- Placeholder for photos related to Music -->
+        <img src="WolfAlice-5.jpg" alt="WolfAlice-5.jpg">
+        <!-- image copied from:https://www.independent.co.uk/arts-entertainment/music/reviews/wolf-alice-review-blue-weekend-b1858233.html  -->
+        <img src="Red Velvet.png" alt="Red Velvet.png">
+         <!-- image copied from:https://www.reddit.com/r/kpop/comments/17j52w8/red_velvet_the_3rd_album_chill_kill_teaser_images/  -->
+        <img src="Newjeans..png" alt="Newjeans..png">
+         <!-- image copied from:https://www.billboard.com/music/pop/newjeans-kpop-star-profile-1235310398/  -->
+        <img src="Aespa.png" alt="Aespa.png">
+         <!-- image copied from:https://www.rollingstone.com/music/music-features/aespa-savage-interview-1241875/  -->
+        
+
+      </div>
+    </section>
+  </main>
+   <footer>
+  <p>My Email: p5gu@uwaterloo.ca</p>
+</footer>
+</body>
+</html>
