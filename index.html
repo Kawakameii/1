@@ -3,6 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gu Eileen Assignment3</title>
+  <!--Code copied from: https://www.w3schools.com/css/css_font.asp
+      Author: w3schools.com
+      Name: font family
+      Description: Display the font.
+      Date retrieved: Sept. 26, 2019 -->
+  <!--Code copied from: https://www.w3schools.com/css/css_border_width.asp
+      Author: w3schools.com
+      Name: Border Width
+      Description: Display the image's border.
+      Date retrieved: Sept. 26, 2019 -->
+  <!--Code copied from: https://www.w3schools.com/cssref/css3_pr_box-shadow.php
+      Author: w3schools.com
+      Name: box shadow
+      Description: Display the box shadow.
+      Date retrieved: Sept. 26, 2019 -->
+  <!--Code copied from: https://www.w3schools.com/cssref/css3_pr_flex-wrap.php
+      Author: w3schools.com
+      Name: flex wrap
+      Description: Control how pictures are arranged.
+      Date retrieved: Sept. 26, 2019 -->
   <style>
     /* Basic Reset */
      h1, h2, h3, p, ul, li {
@@ -11,7 +32,9 @@
     }
 
     body {
+      /*copied code starts*/
       font-family: "Monaco", Monospace;
+      /*copied code ends*/
       line-height: 1.6;
       background-color: #dce9fa;
       margin: 0;
@@ -26,7 +49,9 @@
     
     nav {
       background-color: #364c73;
+      /*copied code starts*/
       font-family: "Arial", sans-serif;
+      /*copied code ends*/
     }
     
     nav :hover {
@@ -70,7 +95,7 @@
 
     header nav ul li a {
       text-decoration: none;
-      color: white; /* Text color set to black */
+      color: white; 
       font-weight: bold;
       display: inline;
     }
@@ -95,9 +120,11 @@
       height: 100%;
       object-fit: cover;
       display: block;
+       /*copied code starts*/
       border-radius: 110px;
       border-style: solid;
       border-width: 6px;
+       /*copied code ends*/
       color: b8d1f2;
     }
 
@@ -106,7 +133,9 @@
       background-color: #fff;
       padding: 20px;
       border-radius: 50px;
+      /*copied code starts*/
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      /*copied code ends*/
       height: 45%;
       margin-right: 5px;
     }
@@ -131,13 +160,13 @@
 
     .photo-container {
       display: flex;
+      /*copied code starts*/
       flex-wrap: wrap;
-      gap: 0.5px;
-      
+      /*copied code ends*/
     }
 
     .photo-container img {
-      width: 45%; /* Adjust width for responsiveness */
+      width: 45%; 
       border-radius: 5px;
     }
   </style>
@@ -210,6 +239,9 @@
       <p style="float:left;width:100%;">I'm passionate about traveling, and my top destinations include Zurich, 
         Edinburgh, and Kyoto. I have a great fondness for East Asian cuisine and European architecture. 
         My aspiration is to explore all the places on my travel wishlist in the future</p>
+        <img src="Malaysia.jpg" alt="Malaysia.jpg" style="width:27%;border-radius:10px;height:32%;margin-left:40px">
+        <img src="food.jpg" alt="food.jpg" style="width:27%;border-radius:10px;height:32%;margin-left:10px;">
+        <img src="food2.jpg" alt="food2.jpg" style="width:20%;border-radius:10px;height:32%;margin-left:10px">
       </div>
     </section>
     
@@ -229,12 +261,20 @@
          <!-- image copied from:https://www.billboard.com/music/pop/newjeans-kpop-star-profile-1235310398/  -->
         <img src="Aespa.png" alt="Aespa.png">
          <!-- image copied from:https://www.rollingstone.com/music/music-features/aespa-savage-interview-1241875/  -->
+  
       </div>
     </section>
     
   </main>
    <footer>
-  <p>My Email: <a href="p5gu@uwaterloo.ca">p5gu@uwaterloo.ca</a></p>
+     <!-- Code copied from: https://www.w3schools.com/charsets/ref_emoji_office.asp
+               Author: w3schools.com
+               Name: Emoji Office
+               Description: display the Email emoji.
+               Date retrieved: Sept. 26, 2019-->
+    <!-- Copied code starts -->
+  <p>CONTACT ME: &#128231; <a href="p5gu@uwaterloo.ca">p5gu@uwaterloo.ca</a></p>
+     <!-- Copied code ends -->
 </footer>
 </body>
 </html>
