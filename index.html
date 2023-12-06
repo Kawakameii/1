@@ -43,15 +43,23 @@
     /* Header Styles */
     header {
       background-color: #7a99c2;
-      width: 100%;
-      height: 45%;
+      padding: 10em 0;
     }
     
     nav {
+      overflow: hidden;
       background-color: #364c73;
       /*copied code starts*/
       font-family: "Arial", sans-serif;
       /*copied code ends*/
+    }
+    
+    nav a {
+      display: inline;
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      padding: 80px;
     }
     
     nav :hover {
@@ -68,18 +76,12 @@
       margin-left: 0px; /* Add left margin */
     }
     
-    h2 {
+    h3 {
       width: 100%;
       background-color: #dce9fa;
       color: #10136b;
       text-align: center;
       margin-left: 0px;
-    }
-
-    header p {
-      margin-bottom: 20px;
-      text-align: center; 
-      margin-left: 100px; /* Add left margin */
     }
 
     header nav ul {
@@ -100,7 +102,6 @@
       display: inline;
     }
     
-
     /* Main Content Styles */
     main {
       color: #10136b;
@@ -125,7 +126,7 @@
       border-style: solid;
       border-width: 6px;
        /*copied code ends*/
-      color: b8d1f2;
+      color: white;
     }
 
     section {
@@ -136,8 +137,8 @@
       /*copied code starts*/
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       /*copied code ends*/
+      width: 100%;
       height: 45%;
-      margin-right: 5px;
     }
 
     section h2 {
@@ -173,23 +174,24 @@
 </head>
 <body>
 
-  <header>
-    <nav>
+  <nav>
       <ul>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#Bio">Bio</a></li>
-        <li><a href="#Hobbies">Hobbies</a></li>
-        <li><a href="#Music">Music</a></li>
-        <li><a href="#Contact Me">Contact</a></li>
+        <a href="#Home">Home</a>
+        <a href="#Bio">Bio</a>
+        <a href="#Hobbies">Hobbies</a>
+        <a href="#Music">Music</a>
+        <a href="#Contact Me">Contact</a>
       </ul>
     </nav>
+  
+  <header>
     <div class="image-container">
       <img src="selfie.jpg" alt="selfie.jpg">
     </div>
     <div>
       <h1>Hello Everyone!</h1>
-      <h2>My name is Eileen</h2>
-      <h2>I am a Waterloo Warrior</h2>
+      <h3>My name is Eileen</h3>
+      <h3>I am a Waterloo Warrior</h3>
     </div>
   </header>
 
